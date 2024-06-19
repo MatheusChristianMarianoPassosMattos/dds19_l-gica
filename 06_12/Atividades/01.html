@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Atividade 01!</title>
+        <script>
+            let notaUm
+            let notaDois
+            let notaTres
+            let notaQuatro
+            notaUm = window.prompt("Digite a primeira nota");
+            notaUm = Number(notaUm);
+            notaDois = window.prompt ("Digite a segunda nota");
+            notaDois = Number(notaDois);
+            notaTres = window.prompt ("Digite a terceira nota")
+            notaTres = Number (notaTres);
+            notaQuatro = window.prompt ("Digite a quarta nota");
+            notaQuatro = Number (notaQuatro);
+            let media = (notaUm+notaDois+notaTres+notaQuatro)/4
+            media = Number(media)
+           
+            if (media >= 7){
+                console.log ("Você foi aprovado")}
+            else if (media >= 5){ 
+                console.log("Está de recuperação")
+            }
+                else {
+                console.log("Reprovado!")
+            }
+            console.log("Essa é a média", media)
+        </script>
+    </head>
+</html>
